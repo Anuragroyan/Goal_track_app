@@ -4,7 +4,7 @@
     "slug": "goal_track_app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/goal_logo.png",
     "backgroundColor": "#1e085a",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.royanurag10.goal_track_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ab0e2d5-24ed-496a-8c29-0a42cb0aefe2"
+      }
     }
   }
 }
